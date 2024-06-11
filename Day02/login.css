@@ -1,0 +1,26 @@
+.login {
+  color: white;
+  background-color: black;
+
+  text-align: center;
+  width: 345px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 8px;
+}
+
+.coupon {
+  color: #0078ff;
+}
+
+.register {
+  color: #0078ff;
+  background-color: white;
+  /* border: 선두께 선스타일 색상 */
+  border: 1px solid #0078ff;
+  border-radius: 4px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 8px;
+  padding-right: 8px;
+}

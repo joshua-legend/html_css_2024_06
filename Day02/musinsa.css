@@ -1,0 +1,30 @@
+.naverLogin {
+  color: white;
+  background-color: #03c75a;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  text-align: center;
+  width: 345px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 8px;
+}
+.kakaoLogin {
+  color: #020100;
+  background-color: #fee500;
+  text-align: center;
+  width: 345px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 8px;
+}
+
+.appleLogin {
+  color: #020100;
+  background-color: white;
+  border: 1px solid #dedede;
+  text-align: center;
+  width: 345px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 8px;
+}
