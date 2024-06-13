@@ -1,0 +1,21 @@
+.buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.buttons > div {
+  color: black;
+  border: 1px solid #f7f7f7;
+  border-radius: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  font-weight: bold;
+}
+
+.all {
+  background-color: #1273e4;
+  color: white;
+}

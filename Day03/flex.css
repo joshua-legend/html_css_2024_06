@@ -1,0 +1,21 @@
+.box {
+  width: 800px;
+  height: 300px;
+  border: 1px solid red;
+  /* flex: 자식들을 가로 or 세로로 나열 css */
+  display: flex;
+}
+
+.one {
+  border: 1px solid pink;
+  /* flex(자식): 차지하는 비율 */
+  flex: 1;
+}
+.two {
+  border: 1px solid blue;
+  flex: 1;
+}
+.three {
+  border: 1px solid green;
+  flex: 1;
+}
