@@ -1,0 +1,57 @@
+.login {
+  margin: 0 auto;
+  width: 25vw;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logoBox {
+  width: 60%;
+  height: 140px;
+}
+
+.logoBox > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  font-weight: bold;
+}
+.profileImage {
+  width: 100px;
+  height: 100px;
+}
+
+.profileImage > img {
+  width: 100%;
+  height: 100%;
+  /* 사진을 크기에 최적화 시키기 */
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.login__button {
+  width: 80%;
+  background-color: #3797ef;
+  color: white;
+  padding: 20px 0px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.switch__button {
+  text-align: center;
+  color: #3797ef;
+  font-weight: 700;
+  margin-top: 40px;
+}
