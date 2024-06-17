@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+.container {
+  display: flex;
+  gap: 30px;
+}
+
+.card {
+  background-size: cover;
+  border-radius: 10px;
+  padding: 20px 30px;
+  width: 300px;
+  height: 400px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-family: "Pretendard-Regular";
+}
+
+.card > h6 {
+  border-bottom: 1px solid white;
+  width: fit-content;
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+
+.card > h4 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.villa {
+  background-image: url("villa.jpg");
+}
+
+.villa1 {
+  background-image: url("villa1.jpg");
+}

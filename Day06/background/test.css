@@ -1,0 +1,7 @@
+.photo {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("yeoshin.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
