@@ -1,0 +1,44 @@
+body {
+  width: 100vw;
+  height: 200vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container > div {
+  display: flex;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.green {
+  background-color: #00b894;
+}
+
+.blue {
+  background-color: #0984e3;
+  position: relative;
+}
+
+.mini {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.red {
+  background-color: #ff7675;
+}
+
+.yellow {
+  background-color: #fdcb6e;
+}
