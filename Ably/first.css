@@ -1,0 +1,21 @@
+.first {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("frist.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jumbotron {
+  position: absolute;
+  font-family: "Pretendard-Regular";
+  font-weight: bold;
+  color: white;
+  font-size: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}

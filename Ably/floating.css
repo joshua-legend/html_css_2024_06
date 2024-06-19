@@ -1,0 +1,15 @@
+.recruit {
+  position: fixed;
+  bottom: 80px;
+  right: 80px;
+  background-color: #ff5160;
+  font-family: "Pretendard-Regular";
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  border-radius: 12px;
+  padding: 20px 16px;
+}
+
+.recruit:hover {
+  background-color: #a5353f;
+}

@@ -1,0 +1,26 @@
+.third {
+  width: 100vw;
+}
+
+.missionTitle {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.missionTitle > h6 {
+  color: #757575;
+  font-size: 18px;
+  font-family: "Pretendard-Regular";
+  font-weight: bold;
+}
+.missionTitle > h4 {
+  font-size: 36px;
+  color: black;
+  font-family: "Pretendard-Regular";
+  font-weight: bold;
+}
