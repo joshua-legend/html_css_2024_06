@@ -1,0 +1,70 @@
+.fifth {
+  width: 100vw;
+  margin-top: 200px;
+}
+.businessTitle {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.businessTitle > h6 {
+  color: #757575;
+  font-size: 18px;
+  font-family: "Pretendard-Regular";
+  font-weight: bold;
+}
+.businessTitle > h4 {
+  font-size: 36px;
+  color: black;
+  font-family: "Pretendard-Regular";
+  font-weight: bold;
+}
+
+.businessCardArea {
+  width: 100%;
+  max-width: 960px;
+
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  gap: 50px;
+}
+
+.businessCard {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.imageBox {
+  width: 480px;
+  height: 420px;
+  border-radius: 16px;
+}
+
+.imageBox > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  object-fit: cover;
+  transition: all 0.3s;
+}
+
+.imageBox > img:hover {
+  transform: scale(1.02);
+}
+
+.ment {
+  font-family: "Pretendard-Regular";
+  font-weight: bold;
+  color: #1f1f1f;
+  font-size: 24px;
+}
+.peopleName {
+  color: #757575;
+  font-size: 16px;
+}

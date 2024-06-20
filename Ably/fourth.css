@@ -1,0 +1,46 @@
+.fourth {
+  width: 100vw;
+  margin-top: 100px;
+}
+.newArea {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100vw;
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 960px;
+}
+
+.news {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "Pretendard-Regular";
+  font-weight: bold;
+}
+.news:hover {
+  background-color: #f5f5f5;
+}
+.news > h2 {
+  font-size: 24px;
+}
+
+.news > span {
+  font-size: 20px;
+  color: #757575;
+}
+
+.newButton {
+  width: 200px;
+  padding: 16px;
+  background-color: rgb(255, 242, 234);
+  color: rgb(255, 81, 96);
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+}
