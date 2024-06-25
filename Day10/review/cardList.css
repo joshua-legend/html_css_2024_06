@@ -1,0 +1,50 @@
+main {
+  width: 100vw;
+}
+
+.cardList {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  margin-top: 150px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.card {
+  height: 320px;
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.card > .imageBox {
+  width: 100%;
+  height: 60%;
+  transition: all 0.3s;
+}
+
+.imageBox:hover {
+  transform: scale(1.03);
+}
+
+.imageBox > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.card > .name {
+  color: #464646;
+}
+
+.card > .presentButton {
+  color: white;
+  font-weight: bold;
+  background-color: #243c84;
+  border: 1px solid #243c84;
+}

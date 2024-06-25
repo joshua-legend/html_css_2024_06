@@ -1,0 +1,75 @@
+main{
+    width: 100vw;
+}
+
+.snsCard{
+    width: 100%;
+    height: 750px;
+    max-width: 368px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 16px;
+    background: rgb(213,123,60);
+    background: linear-gradient(180deg, rgba(213,123,60,1) 0%, rgba(45,52,13,1) 100%);
+
+    padding:50px;
+}
+.snsContents{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.snsProfile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    color:white;
+    font-weight: bold;
+}
+
+.imageBox{
+    width: 100px;
+    height: 100px;
+}
+
+.imageBox > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.snsLinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+}
+
+.snsButton{
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 50px;
+    text-align: center;
+    padding:20px;
+}
+
+.iconsButton{
+    width: 90%;
+    margin: 0 auto;
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 30px;
+}
