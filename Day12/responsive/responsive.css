@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+.r {
+  background-color: red;
+}
+
+.y {
+  background-color: yellow;
+}
+
+.g {
+  background-color: green;
+}
+
+/* 반응형 */
+@media screen and (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+}
