@@ -1,0 +1,51 @@
+.download {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  font-weight: 600;
+  background-color: #2e3b4b;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: rgb(78, 89, 104);
+}
+
+.mungchigo {
+  width: fit-content;
+}
+
+.mungchigo_title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.buttonArea {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.button_msg {
+  color: #666;
+  font-weight: 400;
+  padding: 10px 14px;
+  border-radius: 8px;
+  background-color: #f6f6f6;
+}
+
+.newButton {
+  width: fit-content;
+  padding: 10px;
+  background-color: #415fce;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+}
