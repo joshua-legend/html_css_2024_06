@@ -1,0 +1,41 @@
+header {
+  width: 100vw;
+  background-color: white;
+}
+
+nav {
+  /*로고와 링크들 1200px안으로  */
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+
+  /* 로고와 링크들을 flex화 */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.links {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+.recruit {
+  color: black;
+}
+
+.download {
+  background-color: #4287ff;
+  padding: 16px 20px;
+  border-radius: 9999px;
+}
