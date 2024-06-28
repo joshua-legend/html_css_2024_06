@@ -1,0 +1,82 @@
+main {
+  width: 100vw;
+}
+
+.megapick {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 100px;
+}
+
+.megapick > h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.pillButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.pill {
+  padding: 10px 20px;
+  border: 1px solid #dbdbdb;
+  border-radius: 50px;
+}
+
+.library {
+  display: flex;
+  gap: 50px;
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  transition: all 0.3;
+}
+
+.image {
+  width: 250px;
+  height: 300px;
+  position: relative;
+}
+.imageBox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageBox > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.mask {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: white;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: all 0.3;
+}
+
+.book:hover .mask {
+  opacity: 1;
+}
+
+.bookTitle {
+  font-size: 30px;
+}

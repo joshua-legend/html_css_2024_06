@@ -1,0 +1,43 @@
+main {
+  width: 100vw;
+}
+
+.cardList {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  width: 250px;
+  height: 333px;
+  padding: 30px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.button {
+  width: fit-content;
+  background-color: white;
+  padding: 16px;
+  color: grey;
+  border-radius: 10px;
+}
+
+.tokyo {
+  background-image: url("https://d2ur7st6jjikze.cloudfront.net/landscapes/4657_large_square_1535622623.jpg?1535622623");
+}
+
+.rome {
+  background-image: url("https://d2ur7st6jjikze.cloudfront.net/landscapes/4751_large_square_1536050273.jpg?1536050273");
+}
