@@ -1,0 +1,51 @@
+.first {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("office.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+}
+
+.contents {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  z-index: 1;
+}
+
+.title {
+  font-size: 120px;
+  color: white;
+}
+
+.subTitle {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  color: white;
+}
+
+.button {
+  color: white;
+  border: 1px solid white;
+  width: 300px;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.mask {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  opacity: 0.9;
+  background-color: rgba(0, 0, 0, 0.2);
+  filter: drop-shadow(2px 4px 6px black);
+}

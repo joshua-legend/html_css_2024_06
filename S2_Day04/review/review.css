@@ -1,0 +1,21 @@
+/* .container {
+  position: relative;
+} */
+
+.box {
+  width: 200px;
+  height: 200px;
+}
+
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+
+.yellow {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
