@@ -34,13 +34,13 @@ nav {
   gap: 10px;
 }
 
-.links > li {
+.links > .link {
   color: #555;
   padding: 20px 40px;
   transition: all 0.5s;
 }
 
-li:hover {
+.link:hover {
   color: white;
   background-color: #555;
 }

@@ -1,0 +1,43 @@
+footer {
+  width: 100vw;
+  height: 40vh;
+  background-color: #333;
+
+  display: flex;
+  align-items: center;
+}
+
+.inner {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  color: #666;
+}
+
+.upper {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #777;
+  padding-bottom: 50px;
+}
+
+.footerLogo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.otherSite {
+  display: flex;
+  gap: 20px;
+}
+
+.down {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+.copyright {
+  margin-top: 30px;
+}
