@@ -1,0 +1,67 @@
+main {
+  width: 100vw;
+}
+
+.first {
+  width: 100%;
+}
+
+.first > img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.second {
+  width: 100%;
+  display: flex;
+  padding: 100px 0;
+  flex-direction: column;
+  gap: 30px;
+  background-image: url("https://www.ediya.com/images/main/main_beanist_bg.gif");
+}
+
+.content {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.coffeeShowCase {
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.coffeeTitle {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  align-items: center;
+}
+.brownText {
+  font-weight: 900;
+  color: #90470c;
+  font-size: 30px;
+}
+.normalText {
+  font-weight: 900;
+  font-size: 30px;
+}
+.coffee {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.coffeeImage {
+  display: flex;
+  flex-direction: column;
+}
+
+.coffeeName {
+  font-weight: 900;
+  color: #90470c;
+}

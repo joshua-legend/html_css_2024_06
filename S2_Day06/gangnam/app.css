@@ -1,0 +1,8 @@
+.app {
+  width: 100vw;
+  height: 200vh;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  border: 1px solid red;
+}

@@ -1,0 +1,16 @@
+header {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  padding: 5px 10px;
+}
+
+.loginButton {
+  border-radius: 16px;
+  border: 1px solid #214;
+  padding: 6px 14px;
+}
